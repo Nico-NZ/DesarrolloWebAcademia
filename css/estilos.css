@@ -1,0 +1,53 @@
+
+*{
+    color: rgb(42, 0, 100);/** en este codigo pongo el *(color azul) 
+    le estoy diciendo que se aplique esta propiedad a todo el documento,
+    pero NO aplica porque cada elemento tine ya definido sus propiedades
+    */
+}
+p , span {
+    color: rgb(98, 0, 255);
+    width: 300px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /**padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    */
+    padding: 30px 15px 25px 20px;
+    font-weight: bold;
+    color: rgb(218, 32, 32);
+}
+
+section{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#mi_parrafo{
+    color: #000;
+    font-size: 23px;
+    border: 1px solid red;
+}
+
+.estaesmiclase{
+    font-weight: bold;
+    color: aquamarine;
+}
+   /**
+   esto es un comentario dentro de un dco css
+   con este documento tengo problema.No puedo corregir los errores! no se aplica a doc css.htlm!
+    ya corregi estaba poniendo mal la referencia tenia un/ de mas al inicio...
+   */
+
+ 
+
